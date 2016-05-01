@@ -1,6 +1,6 @@
 {
   "nightTime": {
-    "description": "The time (pm) when the theme should go dark",
+    "description": "The time (pm) when the theme should go dark, requires restart",
     "type": "string",
     "default": "8:00",
     "order": 0
@@ -12,7 +12,7 @@
     "order": 1
   },
   "dayTime": {
-    "description": "The time (am) when the theme should go lighter",
+    "description": "The time (am) when the theme should go lighter, requires restart",
     "type": "string",
     "default": "8:00",
     "order": 2

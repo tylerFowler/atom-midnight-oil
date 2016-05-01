@@ -1,13 +1,17 @@
 {
   "name": "midnight-oil",
   "main": "./lib/midnight-oil",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Switch themes based on time of day",
   "keywords": [
     "productivity",
-    "theme", "switch", "switcher",
-    "light", "dark",
-    "working", "late",
+    "theme",
+    "switch",
+    "switcher",
+    "light",
+    "dark",
+    "working",
+    "late",
     "flux"
   ],
   "activationCommands": {},
@@ -16,6 +20,5 @@
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
   },
-  "dependencies": {
-  }
+  "dependencies": {}
 }

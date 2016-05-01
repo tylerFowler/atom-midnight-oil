@@ -7,6 +7,7 @@ import MidnightOil from '../lib/midnight-oil';
 // To run a specific `it` or `describe` block add an `f` to the front (e.g. `fit`
 // or `fdescribe`). Remove the `f` to unfocus the block.
 
+// TODO: write tests for timeEmitter & certain midnight oil fns
 describe('MidnightOil', () => {
   let workspaceElement, activationPromise;
 

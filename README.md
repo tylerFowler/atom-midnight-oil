@@ -2,6 +2,8 @@
 
 Change themes based on the time of day
 
+Installation: `apm install midnight-oil`
+
 # Usage
 
 ### Changing Themes

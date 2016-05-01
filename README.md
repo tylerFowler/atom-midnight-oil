@@ -17,3 +17,9 @@ Because changing the theme can be disruptive while working, when a trigger time 
 
 ### Known Issues
 After switching from a dark to a light theme or vice versa there seems to be an issue where Atom will keep some elements from the previous theme (i.e. the active pane keeping the old syntax coloring with the new theme or textboxes using the dark theme against a light background). Usually this can simply be fixed by either restarting or reloading Atom. Annoying but hopefully this gets fixed soon, see issue [#9550](https://github.com/atom/atom/issues/9550) on Atom for more details.
+
+# TODO
+
+- [ ] Occasionally the package adds between ~450ms - ~500ms to the Atom startup time but typically only ads ~5ms - ~8ms. Work on profiling the main `activate()` function and see where time is being spent in those cases.
+- [ ] Write tests for the functions that parse time & switch themes
+- [ ] Write tests for the TimeEmitter class

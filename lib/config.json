@@ -1,0 +1,44 @@
+{
+  "nightTime": {
+    "description": "The time (pm) when the theme should go dark",
+    "type": "string",
+    "default": "8:00",
+    "order": 0
+  },
+  "nightSyntax": {
+    "description": "The syntax theme to use at night, must match the theme's package name",
+    "type": "string",
+    "default": "one-dark-syntax",
+    "order": 1
+  },
+  "dayTime": {
+    "description": "The time (am) when the theme should go lighter",
+    "type": "string",
+    "default": "8:00",
+    "order": 2
+  },
+  "daySyntax": {
+    "description": "The syntax theme to use during the day, must match the theme's package name",
+    "type": "string",
+    "default": "one-light-syntax",
+    "order": 3
+  },
+  "switchTheme": {
+    "description": "If on, the selected day & night UI themes will be switched between. Sometimes unnecessary as some themes will go dark or light based on the syntax theme",
+    "type": "boolean",
+    "default": true,
+    "order": 4
+  },
+  "nightTheme": {
+    "description": "The theme to use at night, must match the themes package name, **only takes effect if the Switch Theme option is enabled**",
+    "type": "string",
+    "default": "one-dark-ui",
+    "order": 5
+  },
+  "dayTheme": {
+    "description": "The theme to use during the day, must match the themes package name, **only takes effect if the Switch Theme option is enabled**",
+    "type": "string",
+    "default": "one-light-ui",
+    "order": 6
+  }
+}

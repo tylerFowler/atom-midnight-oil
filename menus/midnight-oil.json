@@ -1,0 +1,26 @@
+{
+  "context-menu": {
+    "atom-text-editor": [
+      {
+        "label": "Toggle midnight-oil",
+        "command": "midnight-oil:toggle"
+      }
+    ]
+  },
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "midnight-oil",
+          "submenu": [
+            {
+              "label": "Toggle",
+              "command": "midnight-oil:toggle"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

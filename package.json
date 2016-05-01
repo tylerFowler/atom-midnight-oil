@@ -1,0 +1,18 @@
+{
+  "name": "midnight-oil",
+  "main": "./lib/midnight-oil",
+  "version": "0.0.0",
+  "description": "Switch themes based on time of day",
+  "keywords": [
+  ],
+  "activationCommands": {
+    "atom-workspace": "midnight-oil:toggle"
+  },
+  "repository": "https://github.com/tylerFowler/atom-midnight-oil",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "dependencies": {
+  }
+}

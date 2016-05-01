@@ -5,9 +5,7 @@
   "description": "Switch themes based on time of day",
   "keywords": [
   ],
-  "activationCommands": {
-    "atom-workspace": "midnight-oil:toggle"
-  },
+  "activationCommands": {},
   "repository": "https://github.com/tylerFowler/atom-midnight-oil",
   "license": "MIT",
   "engines": {

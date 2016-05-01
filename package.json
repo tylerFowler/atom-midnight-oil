@@ -4,6 +4,10 @@
   "version": "0.0.0",
   "description": "Switch themes based on time of day",
   "keywords": [
+    "productivity",
+    "theme", "switch",
+    "working", "late",
+    "flux"
   ],
   "activationCommands": {},
   "repository": "https://github.com/tylerFowler/atom-midnight-oil",

@@ -23,5 +23,6 @@ After switching from a dark to a light theme or vice versa there seems to be an 
 # TODO
 
 - [ ] Occasionally the package adds between ~450ms - ~500ms to the Atom startup time but typically only ads ~5ms - ~8ms. Work on profiling the main `activate()` function and see where time is being spent in those cases.
+- [ ] Running an Atom session for a long period of time (upwards of 6 hours) seems to break the timeouts that have to wait a long time, needs investigation
 - [ ] Write tests for the functions that parse time & switch themes
 - [ ] Write tests for the TimeEmitter class

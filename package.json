@@ -1,7 +1,7 @@
 {
   "name": "midnight-oil",
   "main": "./lib/midnight-oil",
-  "version": "0.3.1",
+  "version": "0.3.2",
   "description": "Switch themes based on time of day",
   "keywords": [
     "productivity",
